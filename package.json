@@ -1,0 +1,30 @@
+{
+  "name": "hmtlutil",
+  "version": "0.0.1",
+  "description": "Typscript library that provides useful functions for manipulating html",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "build": "tsc",
+    "build-test": "tsc -p tsconfig.test.json",
+    "build-all": "npm run build && npm run build-test",
+    "clean": "rimraf dist test/dist"
+  },
+  "keywords": [
+    "typescript",
+    "html",
+    "create",
+    "copy",
+    "removeall"
+  ],
+  "author": "Frank Wigger",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "puppeteer": "^1.11.0",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.2.1"
+  }
+}
