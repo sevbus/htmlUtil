@@ -1,6 +1,6 @@
 # Ignore dist folders
 dist/
-test/dist/
+coverage/ 
 
 # Ignore node_modules
 node_modules/

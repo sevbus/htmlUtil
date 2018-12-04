@@ -6,7 +6,7 @@
  * @param id - Optional unique id
  * @returns HTMLElement
  */
-export function htmlCreate(tagName:string, classNames?:string|string[], id?:string):HTMLElement {
+export function htmlCreate(tagName:string, classNames?:string|string[]|null, id?:string):HTMLElement {
     let e = document.createElement(tagName);
 
     if (classNames) {
